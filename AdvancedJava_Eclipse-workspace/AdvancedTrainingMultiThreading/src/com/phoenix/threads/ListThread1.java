@@ -17,13 +17,18 @@ public class ListThread1 extends Thread {
 
 	public void run() {
 
-		try {
-			cities.set(1, "chennai");
-			System.out.println(cities);
-			Thread.sleep(1000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+		System.out.println("Hello");
+		synchronized (cities) {
+			try {
+				cities.set(1, "chennai");
+				System.out.println(cities);
+				Thread.sleep(1000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		}
+		System.out.println("Bye");
+
 	}
 }
