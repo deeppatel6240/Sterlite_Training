@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping xmlns="http://www.hibernate.org/xsd/hibernate-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.hibernate.org/xsd/hibernate-mapping hibernate-mapping-4.0.xsd ">
+	
+	<class name="com.practice.entities.PracticeEmp" table="PRACTICE_EMP">
+		<id name="empId" column="EMPLOYEE_ID"> 
+			<generator class="assigned"></generator>
+		</id>
+		
+		<property name="fName" column="FIRST_NAME"></property>
+		<property name="lName" column="LAST_NAME"></property>
+		<property name="email"></property>
+		<property name="phoneNo" column="PHONE_NUMBER"></property>
+		<property name="managerId" column="MANAGER_ID"></property>
+		<property name="departName" column="DEPARTMENT_NAME"></property>
+	</class>
+</hibernate-mapping>
