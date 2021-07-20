@@ -16,13 +16,16 @@ public class ListThread2 extends Thread {
 
 	public void run() {
 
-		try {
-			cities.set(1, "tokyo");
-			System.out.println(cities);
-			Thread.sleep(1000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+		synchronized (cities) {
+			try {
+				cities.set(1, "tokyo");
+				System.out.println(cities);
+				Thread.sleep(1000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		}
+
 	}
 }
