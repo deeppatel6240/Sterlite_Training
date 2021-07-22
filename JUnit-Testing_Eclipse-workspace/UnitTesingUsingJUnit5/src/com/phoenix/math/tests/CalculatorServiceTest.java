@@ -15,7 +15,7 @@ class CalculatorServiceTest {
 
 	private static CalculatorService calService;
 	
-	// this method should be call before test method
+	// this method should be call before test method and must not be private and abstract
 	// initialization logic
 	//@BeforeEach
 	@BeforeAll // if you use BeforeAll then method must be static
@@ -54,7 +54,7 @@ class CalculatorServiceTest {
 	
 	// clean up logic
 	//@AfterEach
-	@AfterAll // if you use AfterAll then method must be static
+	@AfterAll // if you use AfterAll then method must be static and must not be private and abstract
 	public static void clean() {
 		
 		// clean up
