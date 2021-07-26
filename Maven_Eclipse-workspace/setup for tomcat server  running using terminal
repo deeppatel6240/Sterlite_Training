@@ -1,0 +1,51 @@
+deeppatel6240@deeppatel6240-HP-Laptop-15-bs1xx:~/Downloads/Software/Tomcat/apache-tomcat-9.0.46$ cd bin
+deeppatel6240@deeppatel6240-HP-Laptop-15-bs1xx:~/Downloads/Software/Tomcat/apache-tomcat-9.0.46/bin$ ./startup.sh
+Using CATALINA_BASE:   /home/deeppatel6240/Downloads/Software/Tomcat/apache-tomcat-9.0.46
+Using CATALINA_HOME:   /home/deeppatel6240/Downloads/Software/Tomcat/apache-tomcat-9.0.46
+Using CATALINA_TMPDIR: /home/deeppatel6240/Downloads/Software/Tomcat/apache-tomcat-9.0.46/temp
+Using JRE_HOME:        /usr
+Using CLASSPATH:       /home/deeppatel6240/Downloads/Software/Tomcat/apache-tomcat-9.0.46/bin/bootstrap.jar:/home/deeppatel6240/Downloads/Software/Tomcat/apache-tomcat-9.0.46/bin/tomcat-juli.jar
+Using CATALINA_OPTS:   
+deeppatel6240@deeppatel6240-HP-Laptop-15-bs1xx:~/Downloads/Software/Tomcat/apache-tomcat-9.0.46/bin$
+ ./shutdown.sh
+Using CATALINA_BASE:   /home/deeppatel6240/Downloads/Software/Tomcat/apache-tomcat-9.0.46
+Using CATALINA_HOME:   /home/deeppatel6240/Downloads/Software/Tomcat/apache-tomcat-9.0.46
+Using CATALINA_TMPDIR: /home/deeppatel6240/Downloads/Software/Tomcat/apache-tomcat-9.0.46/temp
+Using JRE_HOME:        /usr
+Using CLASSPATH:       /home/deeppatel6240/Downloads/Software/Tomcat/apache-tomcat-9.0.46/bin/bootstrap.jar:/home/deeppatel6240/Downloads/Software/Tomcat/apache-tomcat-9.0.46/bin/tomcat-juli.jar
+Using CATALINA_OPTS:   
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+deeppatel6240@deeppatel6240-HP-Laptop-15-bs1xx:~/Downloads/Software/Tomcat/apache-tomcat-9.0.46/bin$ ./startup.sh
+Using CATALINA_BASE:   /home/deeppatel6240/Downloads/Software/Tomcat/apache-tomcat-9.0.46
+Using CATALINA_HOME:   /home/deeppatel6240/Downloads/Software/Tomcat/apache-tomcat-9.0.46
+Using CATALINA_TMPDIR: /home/deeppatel6240/Downloads/Software/Tomcat/apache-tomcat-9.0.46/temp
+Using JRE_HOME:        /usr
+Using CLASSPATH:       /home/deeppatel6240/Downloads/Software/Tomcat/apache-tomcat-9.0.46/bin/bootstrap.jar:/home/deeppatel6240/Downloads/Software/Tomcat/apache-tomcat-9.0.46/bin/tomcat-juli.jar
+Using CATALINA_OPTS:   
+Tomcat started.
+deeppatel6240@deeppatel6240-HP-Laptop-15-bs1xx:~/Downloads/Software/Tomcat/apache-tomcat-9.0.46/bin$ ./shutdown.sh
+Using CATALINA_BASE:   /home/deeppatel6240/Downloads/Software/Tomcat/apache-tomcat-9.0.46
+Using CATALINA_HOME:   /home/deeppatel6240/Downloads/Software/Tomcat/apache-tomcat-9.0.46
+Using CATALINA_TMPDIR: /home/deeppatel6240/Downloads/Software/Tomcat/apache-tomcat-9.0.46/temp
+Using JRE_HOME:        /usr
+Using CLASSPATH:       /home/deeppatel6240/Downloads/Software/Tomcat/apache-tomcat-9.0.46/bin/bootstrap.jar:/home/deeppatel6240/Downloads/Software/Tomcat/apache-tomcat-9.0.46/bin/tomcat-juli.jar
+Using CATALINA_OPTS:   
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+deeppatel6240@deeppatel6240-HP-Laptop-15-bs1xx:~/Downloads/Software/Tomcat/apache-tomcat-9.0.46/bin$ ./startup.sh
+Using CATALINA_BASE:   /home/deeppatel6240/Downloads/Software/Tomcat/apache-tomcat-9.0.46
+Using CATALINA_HOME:   /home/deeppatel6240/Downloads/Software/Tomcat/apache-tomcat-9.0.46
+Using CATALINA_TMPDIR: /home/deeppatel6240/Downloads/Software/Tomcat/apache-tomcat-9.0.46/temp
+Using JRE_HOME:        /usr
+Using CLASSPATH:       /home/deeppatel6240/Downloads/Software/Tomcat/apache-tomcat-9.0.46/bin/bootstrap.jar:/home/deeppatel6240/Downloads/Software/Tomcat/apache-tomcat-9.0.46/bin/tomcat-juli.jar
+Using CATALINA_OPTS:   
+Tomcat started.
+deeppatel6240@deeppatel6240-HP-Laptop-15-bs1xx:~/Downloads/Software/Tomcat/apache-tomcat-9.0.46/bin$ ./shutdown.sh
+Using CATALINA_BASE:   /home/deeppatel6240/Downloads/Software/Tomcat/apache-tomcat-9.0.46
+Using CATALINA_HOME:   /home/deeppatel6240/Downloads/Software/Tomcat/apache-tomcat-9.0.46
+Using CATALINA_TMPDIR: /home/deeppatel6240/Downloads/Software/Tomcat/apache-tomcat-9.0.46/temp
+Using JRE_HOME:        /usr
+Using CLASSPATH:       /home/deeppatel6240/Downloads/Software/Tomcat/apache-tomcat-9.0.46/bin/bootstrap.jar:/home/deeppatel6240/Downloads/Software/Tomcat/apache-tomcat-9.0.46/bin/tomcat-juli.jar
+Using CATALINA_OPTS:   
+NOTE: Picked up JDK_JAVA_OPTIONS:  --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+deeppatel6240@deeppatel6240-HP-Laptop-15-bs1xx:~/Downloads/Software/Tomcat/apache-tomcat-9.0.46/bin$  
+
