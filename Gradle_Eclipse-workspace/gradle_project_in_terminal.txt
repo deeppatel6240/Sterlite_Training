@@ -1,0 +1,189 @@
+deeppatel6240@deeppatel6240-HP-Laptop-15-bs1xx:~/Documents/Eclipse-workspace-Gradle/Assignments/hello-gradle-java1$ gradle init
+
+Command 'gradle' not found, but can be installed with:
+
+sudo snap install gradle  # version 7.0.2, or
+sudo apt  install gradle  # version 4.4.1-10
+
+See 'snap info gradle' for additional versions.
+
+deeppatel6240@deeppatel6240-HP-Laptop-15-bs1xx:~/Documents/Eclipse-workspace-Gradle/Assignments/hello-gradle-java1$ gradle init
+
+Select type of project to generate:
+  1: basic
+  2: application
+  3: library
+  4: Gradle plugin
+Enter selection (default: basic) [1..4] 2
+
+Select implementation language:
+  1: C++
+  2: Groovy
+  3: Java
+  4: Kotlin
+  5: Scala
+  6: Swift
+Enter selection (default: Java) [1..6] 
+
+Split functionality across multiple subprojects?:
+  1: no - only one application project
+  2: yes - application and library projects
+Enter selection (default: no - only one application project) [1..2] 
+
+Select build script DSL:
+  1: Groovy
+  2: Kotlin
+Enter selection (default: Groovy) [1..2] 1
+
+Select test framework:
+  1: JUnit 4
+  2: TestNG
+  3: Spock
+  4: JUnit Jupiter
+Enter selection (default: JUnit Jupiter) [1..4] 4
+
+Project name (default: hello-gradle-java1): 
+Source package (default: hello.gradle.java1): com.phoenix.hello
+
+> Task :init
+Get more help with your project: https://docs.gradle.org/7.1.1/samples/sample_building_java_applications.html
+
+BUILD SUCCESSFUL in 34s
+2 actionable tasks: 2 executed
+deeppatel6240@deeppatel6240-HP-Laptop-15-bs1xx:~/Documents/Eclipse-workspace-Gradle/Assignments/helloo-gradle-java1$ gradle tasks
+
+> Task :tasks
+
+------------------------------------------------------------
+Tasks runnable from root project 'hello-gradle-java1'
+------------------------------------------------------------
+
+Application tasks
+-----------------
+run - Runs this project as a JVM application
+
+Build tasks
+-----------
+assemble - Assembles the outputs of this project.
+build - Assembles and tests this project.
+buildDependents - Assembles and tests this project and all projects that depend on it.
+buildNeeded - Assembles and tests this project and all projects it depends on.
+classes - Assembles main classes.
+clean - Deletes the build directory.
+jar - Assembles a jar archive containing the main classes.
+testClasses - Assembles test classes.
+
+Build Setup tasks
+-----------------
+init - Initializes a new Gradle build.
+wrapper - Generates Gradle wrapper files.
+
+Distribution tasks
+------------------
+assembleDist - Assembles the main distributions
+distTar - Bundles the project as a distribution.
+distZip - Bundles the project as a distribution.
+installDist - Installs the project as a distribution as-is.
+
+Documentation tasks
+-------------------
+javadoc - Generates Javadoc API documentation for the main source code.
+
+Help tasks
+----------
+buildEnvironment - Displays all buildscript dependencies declared in root project 'hello-gradle-java1'.
+dependencies - Displays all dependencies declared in root project 'hello-gradle-java1'.
+dependencyInsight - Displays the insight into a specific dependency in root project 'hello-gradle-java1'.
+help - Displays a help message.
+javaToolchains - Displays the detected java toolchains.
+outgoingVariants - Displays the outgoing variants of root project 'hello-gradle-java1'.
+projects - Displays the sub-projects of root project 'hello-gradle-java1'.
+properties - Displays the properties of root project 'hello-gradle-java1'.
+tasks - Displays the tasks runnable from root project 'hello-gradle-java1' (some of the displayed tasks may belong to subprojects).
+
+Verification tasks
+------------------
+check - Runs all checks.
+test - Runs the unit tests.
+
+To see all tasks and more detail, run gradle tasks --all
+
+To see more detail about a task, run gradle help --task <task>
+
+BUILD SUCCESSFUL in 2s
+1 actionable task: 1 executed
+deeppatel6240@deeppatel6240-HP-Laptop-15-bs1xx:~/Documents/Eclipse-workspace-Gradle/Assignments/hello-gradle-java1$ gradle projects
+
+> Task :projects
+
+------------------------------------------------------------
+Root project 'hello-gradle-java1'
+------------------------------------------------------------
+
+Root project 'hello-gradle-java1'
+\--- Project ':app'
+
+To see a list of the tasks of a project, run gradle <project-path>:tasks
+For example, try running gradle :app:tasks
+
+BUILD SUCCESSFUL in 980ms
+1 actionable task: 1 executed
+deeppatel6240@deeppatel6240-HP-Laptop-15-bs1xx:~/Documents/Eclipse-workspace-Gradle/Assignments/hello-gradle-java1$ gradle dependencies
+
+> Task :dependencies
+
+------------------------------------------------------------
+Root project 'hello-gradle-java1'
+------------------------------------------------------------
+
+No configurations
+
+A web-based, searchable dependency report is available by adding the --scan option.
+
+BUILD SUCCESSFUL in 1s
+1 actionable task: 1 executed
+deeppatel6240@deeppatel6240-HP-Laptop-15-bs1xx:~/Documents/Eclipse-workspace-Gradle/Assignments/hello-gradle-java1$ gradlew build
+
+Command 'gradlew' not found, did you mean:
+
+  command 'gradle' from snap gradle (7.0.2)
+  command 'gradle' from deb gradle (4.4.1-10)
+
+See 'snap info <snapname>' for additional versions.
+
+deeppatel6240@deeppatel6240-HP-Laptop-15-bs1xx:~/Documents/Eclipse-workspace-Gradle/Assignments/hello-gradle-java1$ gradlew build
+
+Command 'gradlew' not found, did you mean:
+
+  command 'gradle' from snap gradle (7.0.2)
+  command 'gradle' from deb gradle (4.4.1-10)
+
+See 'snap info <snapname>' for additional versions.
+
+deeppatel6240@deeppatel6240-HP-Laptop-15-bs1xx:~/Documents/Eclipse-workspace-Gradle/Assignments/hello-gradle-java1$ gradlew build
+
+Command 'gradlew' not found, did you mean:
+
+  command 'gradle' from snap gradle (7.0.2)
+  command 'gradle' from deb gradle (4.4.1-10)
+
+See 'snap info <snapname>' for additional versions.
+
+deeppatel6240@deeppatel6240-HP-Laptop-15-bs1xx:~/Documents/Eclipse-workspace-Gradle/Assignments/hello-gradle-java1$ gradle build
+
+BUILD SUCCESSFUL in 20s
+7 actionable tasks: 7 executed
+deeppatel6240@deeppatel6240-HP-Laptop-15-bs1xx:~/Documents/Eclipse-workspace-Gradle/Assignments/hello-gradle-java1$ ./gradlew build
+
+BUILD SUCCESSFUL in 1s
+7 actionable tasks: 7 up-to-date
+deeppatel6240@deeppatel6240-HP-Laptop-15-bs1xx:~/Documents/Eclipse-workspace-Gradle/Assignments/hello-gradle-java1$ ./gradlew run
+
+> Task :app:run
+Hello World!
+
+BUILD SUCCESSFUL in 783ms
+2 actionable tasks: 1 executed, 1 up-to-date
+deeppatel6240@deeppatel6240-HP-Laptop-15-bs1xx:~/Documents/Eclipse-workspace-Gradle/Assignments/hello-gradle-java1$ 
+
+
