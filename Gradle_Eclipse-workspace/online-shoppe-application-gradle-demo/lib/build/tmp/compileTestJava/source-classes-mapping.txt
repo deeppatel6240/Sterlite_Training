@@ -1,0 +1,2 @@
+online/shoppe/application/gradle/demo/LibraryTest.java
+ online.shoppe.application.gradle.demo.LibraryTest
