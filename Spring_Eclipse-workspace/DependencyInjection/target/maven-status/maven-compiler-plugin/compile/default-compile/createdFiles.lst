@@ -1,0 +1,7 @@
+com/phoenix/di/SterliteIdolMain.class
+com/phoenix/di/performers/Singer.class
+com/phoenix/di/instruments/Guitar.class
+com/phoenix/di/config/PerformerConfig.class
+com/phoenix/di/instruments/Instrument.class
+com/phoenix/di/performers/Instrumentalist.class
+com/phoenix/di/performers/Performer.class
