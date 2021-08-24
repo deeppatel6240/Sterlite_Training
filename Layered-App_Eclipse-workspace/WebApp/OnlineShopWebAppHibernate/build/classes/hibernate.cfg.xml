@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-configuration xmlns="http://www.hibernate.org/xsd/orm/cfg" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.hibernate.org/xsd/orm/cfg ../../../hibernate-configuration-4.0.xsd ">
+  <session-factory>
+	  <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+	  <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/STL</property>
+	  <property name="hibernate.connection.username">root</property>
+	  <property name="hibernate.connection.password">Deep@v24</property>
+	  <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
+	  <property name="hibernate.show_sql">true</property>
+	  <mapping class="com.phoenix.data.User"/>
+	  <mapping class="com.phoenix.data.Product"/>
+  </session-factory>
+</hibernate-configuration>
